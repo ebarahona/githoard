@@ -28,7 +28,9 @@
     "unit": "karma start test/unit/karma.conf.js",
     "postinstall": "npm run lint:fix",
     "release": "standard-version",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "build": {
     "productName": "GitHoard",
@@ -143,7 +145,8 @@
     "vue-router": "^2.7.0",
     "vue-rx": "^3.4.0",
     "vuex": "^2.4.1",
-    "vuex-router-sync": "^4.3.2"
+    "vuex-router-sync": "^4.3.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "ace-css": "^1.1.0",
@@ -232,5 +235,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "snyk": true
 }
