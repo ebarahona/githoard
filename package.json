@@ -117,7 +117,7 @@
   },
   "dependencies": {
     "@nerdwallet/less-plugin-npm-import": "github:nerdwallet/less-plugin-npm-import",
-    "async": "^2.5.0",
+    "async": "^3.2.2",
     "axios": "^0.16.1",
     "bluebird": "^3.5.0",
     "byline": "^5.0.0",
